@@ -1,0 +1,29 @@
+---
+title: "My First R markdown document"
+author: "Rosaline Supriya"
+date: "November 28, 2015"
+output: html_document
+---
+
+This is my first Markdown document.
+
+Let's load some data
+
+```{r}
+library(datasets)
+data(airquality)
+summary(airquality)
+```
+
+Here's a pairs plot of the data.
+
+```{r}
+pairs(airquality)
+```
+
+Here's a regression model of ozone on some predictors.
+
+```{r}
+fit<-lm(Ozone ~ Solar.R + Wind + Temp, data = airquality)
+summary(fit)
+```
