@@ -7,7 +7,7 @@
 		Rossman sales data is available from Kaggle website -
 		(https://www.kaggle.com/c/rossmann-store-sales)
 
-		Rossmann sales and stores data is made available in 2 data sets. After tidying and wrangling the data sets, likely combining them into a single tidy data set,  I plan to apply different techniques of data analysis to understand and extrapolate the historical sales data to a robust and profitable prediction model.
+		Rossmann sales and stores data is made available in 2 data sets. I would be focusing on one data set that contains sales data. After tidying and wrangling the data sets, I plan to apply different techniques of data analysis to understand and extrapolate the historical sales data to a robust and profitable prediction model.
 
 		I plan to submit R scripts with accompanying paper.
 
